@@ -18,7 +18,8 @@ body {
   margin-bottom: 10px;
   font-size: 25px;
   border-radius: 4px;
-  padding: 0 10px;
+  padding: 25px 10px;
+  width: 500px;
 }
 
 .choice-container:hover {
