@@ -27,6 +27,10 @@ body {
   box-shadow: 0 0.4rem 1.4rem rgba(6, 103, 247, 0.5);
 }
 
+.choice-container:disabled {
+  cursor: no-drop;
+}
+
 .correct {
   background: linear-gradient(
     32deg,
