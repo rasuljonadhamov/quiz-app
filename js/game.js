@@ -6,7 +6,7 @@ const scoreText = document.querySelector("#score");
 
 let questions = [
   {
-    question: "Ozbekiston Poytaxti ?",
+    question: "Ozbekiston Poytaxti qayer ?",
     answers: [
       { text: "Toshkent", correct: true },
       { text: "Buhoro", correct: false },
@@ -15,7 +15,7 @@ let questions = [
     ],
   },
   {
-    question: "Nechta viloyat bor ?",
+    question: "O'zbekistonda nechta viloyat bor ?",
     answers: [
       { text: "12 ta", correct: true },
       { text: "11 ta", correct: false },
@@ -24,7 +24,7 @@ let questions = [
     ],
   },
   {
-    question: "Prizident Kim ?",
+    question: "O'zbekistonning hozirgi prizidenti kim ?",
     answers: [
       { text: "Karimov", correct: false },
       { text: "Mirziyoyev", correct: true },
@@ -33,7 +33,7 @@ let questions = [
     ],
   },
   {
-    question: "Necta odam prezident boligan ozbekistonda ?",
+    question: "O'zbekistonda necta odam prezident boligan ?",
     answers: [
       { text: "4 ta", correct: false },
       { text: "1 ta", correct: false },
@@ -108,8 +108,6 @@ function showScore() {
 
 function handleNextQuestion() {
   resetHtml();
-
-  console.log("hello");
   currentQuestionIndex++;
   if (currentQuestionIndex < questions.length) {
     showQuestion();
